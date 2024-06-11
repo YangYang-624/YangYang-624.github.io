@@ -40,7 +40,7 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "haoliang@stu.xmu.edu.cn"
+    email                : "yangyang8@link.cuhk.edu.cn"
   generatedFields:
     date:
       type               : "date"
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hao Liang"
+  name             : "Yang Yang"
   avatar           : "myprofile.jpg"
-  bio              : "A machine learning, signal processing and statistic fan"
-  location         : "Xiamen, CHN"
+  bio              : "Fascinated by both artificial intelligence research and traditional cultures."
+  location         : "Shenzhen, CHN"
   employer         :
  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=PtWSpXIAAAAJ&hl=zh-CN"
-  email            : "haoliang@stu.xmu.edu.cn" 
-  researchgate     : "https://www.researchgate.net/profile/Hao-Liang-61" # example: "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : "https://scholar.google.com/citations?user=epBrjkQAAAAJ&hl=zh-CN&authuser=2"
+  email            : "yangyang8@link.cuhk.edu.cn" 
+  #researchgate     : "https://www.researchgate.net/profile/Hao-Liang-61" # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
