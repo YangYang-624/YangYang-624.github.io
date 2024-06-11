@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hao Liang (梁浩)"
+title                    : "Yang Yang (杨洋)"
 title_separator          : "-"
-name                     : &name "Hao Liang"
+name                     : &name "Yang Yang"
 description              : &description "A machine learning, signal processing and statistic fan"
 url                      : https://hauliang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
