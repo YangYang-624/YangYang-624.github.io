@@ -6,8 +6,8 @@ author_profile: true
 
 ***
 
-* **Address:** Internet of Things Thrust, Information Hub, Hong Kong University of Science and Technology (Guangzhou), Guangzhou 511442, China  
-* **Email:** haoliang2023@hotmail.com
-* **WeChat ID:** lianghao930
+* **Address:** The Chinese University of Hong Kong, Shenzhen, Shenzhen 518172, China  
+* **Email:** yangyang8@link.chuk.edu.cn
+* **WeChat ID:** Frank_y2
 
 <div style='display: none'>* **Bilibili：** [梦想养只小羊](https://space.bilibili.com/353554117)
