@@ -10,10 +10,10 @@ locale                   : "en-US"
 title                    : "Yang Yang (杨洋)"
 title_separator          : "-"
 name                     : &name "Yang Yang"
-description              : &description "A machine learning, signal processing and statistic fan"
+description              : &description "Fascinated by both artificial intelligence research and traditional cultures."
 url                      : https://hauliang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "HauLiang/hauliang.github.io"
+repository               : "YangYang-624/YangYang-624.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -96,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "HauLiang"
+  github           : "YangYang-624"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0000-0002-1570-3783"
+  #orcid            : "https://orcid.org/0000-0002-1570-3783"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
