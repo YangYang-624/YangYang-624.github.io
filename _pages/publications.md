@@ -16,8 +16,6 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 <ol>
 
-https://arxiv.org/abs/2402.05946
-
 <li><p> <b>Neuro-Symbolic Temporal Point Processes</b><br>
 <b>Yang Yang</b>, Chao Yang, Boyang Li, Yinghao Fu, Shuang Li
 in <i>International Conference on Machine Learning (ICML), 2024 <br>
