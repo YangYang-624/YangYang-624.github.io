@@ -14,9 +14,9 @@ About me
 ------
 I am currently seeking a Ph.D. position. I am a research assistant under the supervision of [Shuang Li](https://shuangli01.github.io/index.html) and will receive my Master's degree in Data Science from The Chinese University of Hong Kong, Shenzhen in November 2024.
 
-My research interests lie in **trustworthy AI** and **explainable models**, particularly in utilizing **Neuro-Symbolic** and **differentiable rule learning** techniques to construct an AI Agent that encompasses knowledge collection, knowledge mining, and knowledge reasoning.
+My research interests encompass **Neuro-Symbolic**, **knowledge representation and reasoning**, and **LLM-driven knowledge discovery**. My long-term goal is to build a **self-evolving intelligent system** that integrates LLMs with symbolic knowledge bases to enable automated knowledge extraction, interpretable reasoning, and continuous optimization.
 
-My hobbies contain running, cooking, reading, and researching traditional Chinese culture, such as Bazi and Feng Shui. 
+In my spare time, I enjoy playing basketball, working out, cooking, and studying traditional Chinese culture, such as the I Ching.
 
 ***
 
