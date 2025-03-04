@@ -12,7 +12,7 @@ redirect_from:
 
 About me
 ------
-I am currently seeking a Ph.D. position. I am a research assistant under the supervision of [Shuang Li](https://shuangli01.github.io/index.html) and will receive my Master's degree in Data Science from The Chinese University of Hong Kong, Shenzhen in November 2024.
+Currently, I am a research assistant at The Hong Kong University of Science and Technology, Guangzhou, focusing on integrating LLMs with symbolic reasoning. Previously, I earned my Master of Science in Data Science from The Chinese University of Hong Kong, Shenzhen in October 2024 under the guidance of [Shuang Li](https://shuangli01.github.io/index.html).
 
 My research interests encompass **Neuro-Symbolic**, **knowledge representation and reasoning**, and **LLM-driven knowledge discovery**. My long-term goal is to build a **self-evolving intelligent system** that integrates LLMs with symbolic knowledge bases to enable automated knowledge extraction, interpretable reasoning, and continuous optimization.
 
