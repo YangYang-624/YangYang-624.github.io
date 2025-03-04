@@ -24,6 +24,13 @@ Conference Publications
 ------
 <ol>
 
+<li><p><b>HyperLogic: Enhancing Diversity and Accuracy in Rule Learning with HyperNets</b><br>
+<b>Yang Yang</b>, Wendi Ren, Shuang Li<br>
+<i>Neural Information Processing Systems (NeurIPS), 2024</i><br>
+<a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/067437c6d5d0369b6d09200bef89715b-Abstract-Conference.html" class="textlink" target="_blank">[pdf]</a>
+</p>
+</li>
+
 <li><p> <b>Neuro-Symbolic Temporal Point Processes</b><br>
 <b>Yang Yang</b>, Chao Yang, Boyang Li, Yinghao Fu, Shuang Li<br>
 <i>International Conference on Machine Learning (ICML), 2024</i><br>
