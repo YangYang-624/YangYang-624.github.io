@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Yang Yang (杨洋)"
 title_separator          : "-"
 name                     : &name "Yang Yang"
-description              : &description "Fascinated by both artificial intelligence research and traditional cultures."
+description              : &description "Ph.D. student at AI Thrust, HKUST-GZ, working on neuro-symbolic AI and LLM reasoning."
 url                      : https://YangYang-624.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "YangYang-624/YangYang-624.github.io"
@@ -40,7 +40,7 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "yangyang8@link.cuhk.edu.cn"
+    email                : "yyang945@connect.hkust-gz.edu.cn"
   generatedFields:
     date:
       type               : "date"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Yang Yang"
   avatar           : "myprofile.jpg"
-  bio              : "Fascinated by both artificial intelligence research and traditional cultures."
+  bio              : "Ph.D. student at AI Thrust, HKUST-GZ, working on neuro-symbolic AI and LLM reasoning."
   location         : "Shenzhen, CHN"
   employer         :
  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=epBrjkQAAAAJ&hl=zh-CN&authuser=2"
-  email            : "yangyang8@link.cuhk.edu.cn" 
+  googlescholar    : "https://scholar.google.com/citations?user=bFPSmYEAAAAJ&hl=zh-CN&authuser=1"
+  email            : "yyang945@connect.hkust-gz.edu.cn"
   #researchgate     : "https://www.researchgate.net/profile/Hao-Liang-61" # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

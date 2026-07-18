@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+    <link rel="stylesheet" href="{{ '/assets/css/yy-modern.css' | relative_url }}">
+    <script>
+      (function () {
+        var theme = localStorage.getItem('yy-theme') || 'light';
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav-wrap" aria-label="Primary">
+        <div class="nav-social" aria-label="Social links">
+          <a href="mailto:{{ site.author.email }}" title="Email"><i class="fas fa-envelope"></i></a>
+          <a href="{{ site.author.googlescholar }}" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
+          <a href="https://github.com/{{ site.author.github }}" title="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+        </div>
+        <a class="brand" href="{{ '/' | relative_url }}">Yang Yang</a>
+        <div class="nav-links">
+          <a class="{% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">About</a>
+          <a class="{% if page.url contains '/publications/' %}active{% endif %}" href="{{ '/publications/' | relative_url }}">Publications</a>
+          <a class="{% if page.url contains '/hobbies/' %}active{% endif %}" href="{{ '/hobbies/' | relative_url }}">Hobbies</a>
+          <button class="theme-toggle" type="button" title="Change theme" aria-label="Change theme">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+          </button>
+        </div>
+      </nav>
+      <progress id="scroll-progress" value="0" max="100"></progress>
+    </header>
+
+    <main class="page-shell">
+      <article class="page-card">
+        <header class="page-heading">
+          <h1>{{ page.title }}</h1>
+          {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+          {% if page.url == '/' %}
+            <div class="title-social" aria-label="Contact links">
+              <a href="mailto:{{ site.author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span></a>
+              <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a>
+              <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+            </div>
+          {% endif %}
+        </header>
+        <div class="content">
+          {{ content }}
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; 2026 Yang Yang.</span>
+      <span>Last updated: July 15, 2026.</span>
+    </footer>
+
+    <script>
+      (function () {
+        var root = document.documentElement;
+        var toggle = document.querySelector('.theme-toggle');
+        var progress = document.getElementById('scroll-progress');
+        function updateProgress() {
+          var total = document.documentElement.scrollHeight - window.innerHeight;
+          progress.value = total > 0 ? (window.scrollY / total) * 100 : 0;
+        }
+        toggle.addEventListener('click', function () {
+          var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+          root.setAttribute('data-theme', next);
+          localStorage.setItem('yy-theme', next);
+        });
+        updateProgress();
+        window.addEventListener('scroll', updateProgress, { passive: true });
+        window.addEventListener('resize', updateProgress);
+      })();
+    </script>
+  </body>
+</html>
