@@ -11,9 +11,11 @@ redirect_from:
 
 <div class="about-intro">
   <div class="about-copy">
-    <p>I am a Fall 2025 Ph.D. student at AI Thrust, Hong Kong University of Science and Technology (Guangzhou), supervised by <a href="https://yutaoyue.github.io/">Prof. Yutao Yue</a>. My research focuses on <strong>neuro-symbolic artificial intelligence</strong>, <strong>LLM reasoning</strong>, <strong>rule learning</strong>, <strong>knowledge representation and reasoning</strong>, and <strong>LLM-driven knowledge discovery</strong>.</p>
+    <p>I joined the Artificial Intelligence Thrust at the Hong Kong University of Science and Technology (Guangzhou) as a Ph.D. student in Fall 2025, under the supervision of <a href="https://yutaoyue.github.io/">Prof. Yutao Yue</a>.</p>
 
-    <p>My long-term goal is to build self-evolving intelligent systems that integrate LLMs with symbolic knowledge bases to support automated knowledge extraction, interpretable reasoning, and continuous optimization.</p>
+    <p>My research focuses on <strong>AI for knowledge discovery and creative generation</strong>. I study how large language models can synthesize knowledge from text into <strong>reusable representations and skills</strong>, identify and reconcile conflicting knowledge, uncover hidden patterns, generate <strong>scientific hypotheses</strong>, and produce <strong>original and compelling stories</strong>.</p>
+
+    <p>To support these goals, I explore <strong>LLM agent systems</strong>, <strong>neuro-symbolic methods</strong> that connect language models with structured knowledge and reasoning, and <strong>self-evolving mechanisms</strong> that enable AI systems to learn from experience and feedback. Ultimately, I hope to build AI that transforms existing knowledge into new and valuable discoveries, ideas, and creative content.</p>
   </div>
   <div class="profile">
     <img src="{{ '/images/myprofile.jpg' | relative_url }}" alt="Yang Yang">
