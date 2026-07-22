@@ -115,6 +115,7 @@ redirect_from:
 
 ## Academic Service
 
+- Reviewer, AAAI Conference on Artificial Intelligence (AAAI)
 - Reviewer, International Conference on Learning Representations (ICLR, CCF-A)
 - Reviewer, International Conference on Machine Learning (ICML, CCF-A)
 - Reviewer, Conference on Neural Information Processing Systems (NeurIPS, CCF-A)
